@@ -20,7 +20,7 @@ namespace vCheck.Lib.Responses
         public int Count { get; internal set; }
         
         [JsonProperty("lower")]
-        public string LowestVersion { get; internal set; }
+        public string LowerVersion { get; internal set; }
         
         [JsonProperty("upper")]
         public string UpperVersion { get; internal set; }

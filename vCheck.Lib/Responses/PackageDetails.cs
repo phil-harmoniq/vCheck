@@ -11,7 +11,7 @@ namespace vCheck.Lib.Responses
         public string PackageID { get; internal set; }
 
         [JsonProperty("authors")]
-        public string authors { get; internal set; }
+        public string Authors { get; internal set; }
 
         [JsonProperty("description")]
         public string Description { get; internal set; }
